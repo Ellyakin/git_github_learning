@@ -1,0 +1,23 @@
+ls -> mostra as pastas
+Ctrl + L -> limpa a tela
+cd .. -> volta uma pasta
+cd "Endereço do arquivo" -> vai para o endereço
+
+
+
+git config--list -> mostra lista de todas as configurações
+git config --global --unset user.name -> Retira o nome das configuraçõe
+git config --global --unset user.email -> retira o email das configurações
+
+git config --global --set user.email "ellyakinjsf@gmail.com" -> Adiciona o email nas configurações
+
+git config --global --set user.name "Ellyakin" -> Adiciona o nome nas configurações
+
+git remote add origin "link do github" -> Salvando o caminho do local no servidor ( o origin é um apelido para não ficar escrevendo o endereço https do github)
+
+git init -> inicializa o git para criar o repositorio
+git status -> para ver se há alguma modificação 
+git add* -> coloca todas as atualizações no stage (necessario fazer isso antes de enviar)
+git add 
+git commit -m " COmentario de alteração" -> Realiza o comentario de mudança
+git push origin master -> Envia as atualizações
